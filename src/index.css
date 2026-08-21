@@ -1,6 +1,60 @@
 @import "tailwindcss";
 
+@theme {
+  --font-mono: "Space Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  --bg-main: #ffffff;
+  --bg-panel: #f8f9fa;
+  --text-main: #111113;
+  --text-inverse: #ececec;
+  --accent: #0066cc; 
+  --border-10: rgba(17, 17, 19, 0.1);
+  --border-20: rgba(17, 17, 19, 0.2);
+  --border-30: rgba(17, 17, 19, 0.3);
+  --border-05: rgba(17, 17, 19, 0.05);
+  --overlay-90: rgba(255, 255, 255, 0.9);
+  --overlay-80: rgba(255, 255, 255, 0.8);
+  --overlay-50: rgba(17, 17, 19, 0.05);
+  --overlay-30: rgba(17, 17, 19, 0.03); 
+  --overlay-20: rgba(17, 17, 19, 0.02);
+  --white-02: rgba(0, 0, 0, 0.02);
+}
+
+.dark {
+  --bg-main: #111113;
+  --bg-panel: #000000;
+  --text-main: #ececec;
+  --text-inverse: #111113;
+  --accent: #00f2ff;
+  --border-10: rgba(236, 236, 236, 0.1);
+  --border-20: rgba(236, 236, 236, 0.2);
+  --border-30: rgba(236, 236, 236, 0.3);
+  --border-05: rgba(236, 236, 236, 0.05);
+  --overlay-90: rgba(0, 0, 0, 0.9);
+  --overlay-80: rgba(0, 0, 0, 0.8);
+  --overlay-50: rgba(0, 0, 0, 0.5);
+  --overlay-30: rgba(0, 0, 0, 0.3);
+  --overlay-20: rgba(0, 0, 0, 0.2);
+  --white-02: rgba(255, 255, 255, 0.02);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--text-inverse);
+}
+
 body {
-  background-color: #111113;
-  color: #EDEDED;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

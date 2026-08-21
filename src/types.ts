@@ -1,4 +1,5 @@
 export interface InventoryItem {
+  id?: string;
   kode: string;
   sku: string;
   deskripsi: string;

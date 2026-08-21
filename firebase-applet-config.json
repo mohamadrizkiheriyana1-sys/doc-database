@@ -3,6 +3,7 @@
   "appId": "1:535304432934:web:102fcfe0e31649c205a5e7",
   "apiKey": "AIzaSyCm8w5HoDAXUcGPwNhy_EUfxHRgZNJ_cEI",
   "authDomain": "sharp-airlock-k9v0l.firebaseapp.com",
+  "firestoreDatabaseId": "ai-studio-gudangku-c84a7070-0f36-45de-b215-6d98ec409fcd",
   "storageBucket": "sharp-airlock-k9v0l.firebasestorage.app",
   "messagingSenderId": "535304432934",
   "measurementId": "",

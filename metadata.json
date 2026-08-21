@@ -1,7 +1,9 @@
 {
   "name": "GudangKu",
   "description": "Aplikasi pencarian data inventaris barang terhubung dengan Google Sheets.",
-  "requestFramePermissions": [],
+  "requestFramePermissions": [
+    "camera"
+  ],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
   ]

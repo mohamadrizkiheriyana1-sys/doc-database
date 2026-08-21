@@ -1,0 +1,24 @@
+{
+  "collections": [
+    {
+      "name": "requests",
+      "fields": [
+        { "name": "sku", "type": "string" },
+        { "name": "deskripsi", "type": "string" },
+        { "name": "qty", "type": "string" },
+        { "name": "alasan", "type": "string" },
+        { "name": "date", "type": "string" }
+      ],
+      "description": "Part requests"
+    },
+    {
+      "name": "parts",
+      "fields": [
+        { "name": "kode", "type": "string" },
+        { "name": "sku", "type": "string" },
+        { "name": "deskripsi", "type": "string" }
+      ],
+      "description": "Added parts"
+    }
+  ]
+}
